@@ -1,0 +1,22 @@
+@import url(./__img/main__img.css);
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1350px;
+  margin: 0 auto;
+  padding: 10vh 0 20vh 0;
+}
+
+@media (max-width: 943px) {
+  .main {
+    flex-direction: column;
+    padding: 10vh 0 10vh 0;
+  }
+}
+
+@media (max-width: 550px) {
+  .main {
+    padding: 7vh 0 7vh 0;
+  }
+}

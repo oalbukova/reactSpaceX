@@ -1,0 +1,34 @@
+.header__menu-span {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background-color: white;
+  transition: transform .3s;
+}
+
+.header__menu-span:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -8px;
+  width: 100%;
+  height: 4px;
+  background-color: white;
+}
+
+.header__menu-span:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 8px;
+  width: 100%;
+  height: 4px;
+  background-color: white;
+  transition: transform .3s;
+}
+
+.header__menu-span:hover {
+  opacity: .6;
+  transition: opacity linear 0.5s;
+}

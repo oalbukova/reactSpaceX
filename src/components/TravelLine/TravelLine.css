@@ -1,0 +1,13 @@
+@import url(./__first/travel-line__first.css);
+@import url(./__second/travel-line__second.css);
+@import url(./__round/travel-line__round.css);
+
+.travel-line {
+  display: flex;
+}
+
+@media (max-width: 1350px) {
+  .travel-line {
+    display: none;
+  }
+}

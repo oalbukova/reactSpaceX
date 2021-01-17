@@ -1,0 +1,46 @@
+@import url(./__link/menu__link.css);
+@import url(./__link_active/menu__link_active.css);
+
+.menu {
+  display: flex;
+  font-family: "Museo Sans",
+  Arial,
+  sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: normal;
+  font-weight: 300;
+  list-style-type: none;
+  margin: 39px 0 0;
+}
+
+@media (max-width: 943px) {
+  .menu {
+    flex-direction: column;
+    text-align: center;
+    position: absolute;
+    top: 100px;
+    bottom: -500px;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 70px;
+    font-weight: 700;
+    background-color: #000;
+    opacity: .9;
+    z-index: 5;
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media (max-width: 943px) {
+  .menu {
+    margin: 0;
+  }
+}
+
+@media (max-width: 550px) {
+  .menu {
+    top: 52px;
+  }
+}

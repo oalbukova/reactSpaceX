@@ -1,0 +1,23 @@
+.travel__title {
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 58px;
+  text-transform: uppercase;
+  background: linear-gradient(to left, #ff3f04 0%, #ffffff 90%, #ffffff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+}
+
+@media (max-width: 943px) {
+  .travel__title {
+    -webkit-text-fill-color: white;
+    background: transparent;
+  }
+}
+
+@media (max-width: 550px) {
+  .travel__title {
+    font-size: 40px;
+  }
+}

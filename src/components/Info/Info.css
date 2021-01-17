@@ -1,0 +1,18 @@
+@import url(./__list/info__list.css);
+@import url(./__item/info__item.css);
+@import url(./__link/info__link.css);
+@import url(./__link/_big/info__link_big.css);
+@import url(./__link/_medium/info__link_medium.css);
+
+.info {
+  font-family: "Museo Sans",
+  Arial,
+  sans-serif;
+  z-index: 2;
+}
+
+@media (max-width: 943px) {
+  .info {
+    margin: 0 auto;
+  }
+}

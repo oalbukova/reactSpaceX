@@ -1,0 +1,8 @@
+.travel-line__first {
+  width: 70.65px;
+  background-image: linear-gradient(90deg, hsla(0, 0%, 100%, 0) 0, hsla(0, 0%, 100%, .19));
+  transform: rotate(30deg);
+  transform-origin: bottom right;
+  height: 1px;
+  margin-top: 57px;
+}

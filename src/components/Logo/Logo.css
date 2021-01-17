@@ -1,0 +1,78 @@
+@import url(./__img/logo__img.css);
+
+.logo {
+  border: 1px solid #3d3d3d;
+  padding: 22px 14px 37px 27px;
+  position: relative;
+  cursor: pointer;
+  transition: opacity linear .5s;
+}
+
+.logo:hover {
+  opacity: .6;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+}
+
+.logo:hover:before,
+.logo:hover:after,
+.logo:hover>:first-child:before,
+.logo:hover>:first-child:after {
+  width: 12px;
+  height: 12px;
+  border-color: rgb(255, 255, 255);
+}
+
+.logo:before,
+.logo:after,
+.logo>:first-child:before,
+.logo>:first-child:after {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-color: white;
+  border-style: solid;
+  content: ' ';
+}
+
+.logo:before {
+  top: 0;
+  left: 0;
+  border-width: 1px 0 0 1px;
+}
+
+.logo:after {
+  top: 0;
+  right: 0;
+  border-width: 1px 1px 0 0;
+}
+
+.logo>:first-child:before {
+  bottom: 0;
+  right: 0;
+  border-width: 0 1px 1px 0;
+}
+
+.logo>:first-child:after {
+  bottom: 0;
+  left: 0;
+  border-width: 0 0 1px 1px;
+}
+
+@media (max-width: 1170px) {
+  .logo {
+    padding: 22px 5px 37px 5px;
+  }
+}
+
+@media (max-width: 943px) {
+  .logo {
+    margin-left: 32px;
+    visibility: visible;
+  }
+}
+
+@media (max-width:550px) {
+  .logo {
+    padding: 10px 5px 10px 5px;
+  }
+}

@@ -1,0 +1,23 @@
+.header__menu-button {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 26px;
+  right: 27px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+@media screen and (min-width: 943px) {
+  .header__menu-button {
+    visibility: hidden;
+  }
+}
+
+@media (max-width:550px) {
+  .header__menu-button {
+    top: 13px
+  }
+}

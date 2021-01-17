@@ -1,0 +1,33 @@
+.App {
+  font-family: "Museo Sans",
+  Arial,
+  sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 1920px;
+  min-width: 320px;
+  background-image: url(../../images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  color: #fff;
+  font-style: normal;
+  background-position: 50% 0;
+  background-attachment: fixed;
+  background-color:#16151d;
+}
+
+.page {
+  flex: auto;
+}

@@ -1,0 +1,17 @@
+.menu__link {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 42px;
+}
+
+.menu__link:hover {
+  color: #b1b1b1;
+  padding-bottom: 10px;
+  border-bottom: solid 1px#3d3d3d;
+}
+
+@media (max-width: 1170px) {
+  .menu__link {
+    margin-left: 10px;
+  }
+}

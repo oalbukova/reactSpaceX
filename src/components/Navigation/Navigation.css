@@ -1,0 +1,20 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1255px;
+  margin:0 auto;
+}
+
+@media (max-width: 1350px) {
+  .navigation {
+    margin: 0 32px;
+  }
+}
+
+@media (max-width: 943px) {
+  .navigation {
+    visibility: hidden;
+    background-color: #000;
+    margin: 0;
+  }
+}

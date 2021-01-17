@@ -1,0 +1,8 @@
+.travel__btn-link {
+  transition: opacity linear .5s;
+  margin: 0;
+}
+
+.travel__btn-link:hover {
+  opacity: .6;
+}

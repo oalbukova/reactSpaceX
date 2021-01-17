@@ -1,0 +1,27 @@
+.info__list {
+  list-style-type: none;
+  max-width: 380px;
+  min-height: 380px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 180px);
+  grid-gap: 10px;
+}
+
+@media (max-width: 943px) {
+  .info__list {
+    padding: 0;
+  }
+}
+
+@media (max-width: 450px) {
+  .info__list {
+    width: 185px;
+    margin: 20px auto;
+    grid-row-gap: 20px;
+  }
+}
+
+
+
+
+

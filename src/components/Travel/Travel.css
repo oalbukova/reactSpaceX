@@ -1,0 +1,22 @@
+@import url(./__title/travel__title.css);
+@import url(./__title-span/travel__title-span.css);
+@import url(./__btn/travel__btn.css);
+@import url(./__btn-link/travel__btn-link.css);
+@import url(./__button-container/travel__button-container.css);
+
+.travel {
+  font-family: "Museo Sans",
+  Arial,
+  sans-serif;
+  max-width: 426px;
+  padding: 84px 0 20px 32px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 943px) {
+  .travel {
+    margin: 0 auto;
+    padding: 0;
+  }
+}
