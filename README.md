@@ -1,6 +1,6 @@
 # reactSpaceX
 
-[![project website preview](srs/images/skrin.png)]( https://oalbukova.github.io/reactSpaceX)
+[![project website preview](src/images/skrin.png)]( https://oalbukova.github.io/reactSpaceX)
 
 Осуществлен перенос проекта https://github.com/oalbukova/Ilon на фрейморк ReactJS.
 
