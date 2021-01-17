@@ -17,7 +17,9 @@ function Info() {
         </li>
         <li className="info__item">
           <p className="info__link">календарик за</p>
-          <p className="info__link info__link_big">2001<span className="info__link info__link_medium">г.</span></p>
+          <p className="info__link info__link_big">
+            2001<span className="info__link info__link_medium">г.</span>
+          </p>
           <p className="info__link">в подарок</p>
         </li>
         <li className="info__item">

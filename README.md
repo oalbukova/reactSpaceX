@@ -1,8 +1,12 @@
 # reactSpaceX
 
-[![project website preview](images/skrin.png)](https://oalbukova.github.io/Ilon)
+[![project website preview](srs/images/skrin.png)]( https://oalbukova.github.io/reactSpaceX)
 
 Осуществлен перенос проекта https://github.com/oalbukova/Ilon на фрейморк ReactJS.
+
+### Проект доступен по ссылке:
+
+- https://oalbukova.github.io/reactSpaceX
 
 ### _Автор: Альбукова Ольга_
 

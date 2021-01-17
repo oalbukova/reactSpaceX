@@ -5,14 +5,17 @@ import "./Header.css";
 function Header() {
   return (
     <div className="header">
-      <input type="checkbox" className="header__menu-toggle" id="header__menu-toggle"/>
-        <label htmlFor="header__menu-toggle" className="header__menu-button">
-          <span className="header__menu-span"></span>
-        </label>
-      <Navigation/>
+      <input
+        type="checkbox"
+        className="header__menu-toggle"
+        id="header__menu-toggle"
+      />
+      <label htmlFor="header__menu-toggle" className="header__menu-button">
+        <span className="header__menu-span"></span>
+      </label>
+      <Navigation />
     </div>
   );
 }
-
 
 export default Header;

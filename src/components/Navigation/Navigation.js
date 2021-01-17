@@ -6,13 +6,10 @@ import "./Navigation.css";
 function Navigation() {
   return (
     <nav className="navigation">
-     <Logo/>
-     <Menu/>
+      <Logo />
+      <Menu />
     </nav>
   );
 }
 
 export default Navigation;
-
-
-
